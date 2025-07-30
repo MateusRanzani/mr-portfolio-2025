@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "./variables.css";
+
+body {
+    position: relative;
+    background-color: var(--color-background);
+}
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+}
