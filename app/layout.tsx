@@ -4,7 +4,6 @@ import MenuHeader from "@/components/menuHeader";
 import "../styles/globals.css";
 
 const inter = Inter({
-  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -21,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} antialiased`}
+        className={`${inter.className} antialiased`}
       >
         <MenuHeader/>
         {children}

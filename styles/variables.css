@@ -3,4 +3,16 @@
   --color-background: #1E1E1E;
   --color-content: #252525;
   --color-text: #E4E4E4;
+
+  --font-inter: 'Inter', sans-serif;
+
+  --border-radius-small: 8px;
+  --border-radius-medium: 16px;
+  --border-radius-big: 32px;
+
+  --font-small: 12px;
+  --font-medium: 16px;
+  --font-x-medium:18px;
+  --font-big: 32px;
+   --font-x-big: 52px;
 }

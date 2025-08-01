@@ -2,12 +2,21 @@
 @import "tw-animate-css";
 @import "./variables.css";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
-    position: relative;
-    background-color: var(--color-background);
+  position: relative;
+  background-color: var(--color-background);
 }
 
 .container {
-    width: 100%;
-    max-width: 1450px;
+  width: 100%;
+  max-width: 1450px;
+}
+
+.btn-laranja {
+  @apply bg-[var(--color-content)] border border-[var(--color-accent)] min-w-[215px] h-[42px] text-[var(--color-text)] rounded-[var(--border-radius-medium)] font-semibold cursor-pointer text-[16px];
 }
